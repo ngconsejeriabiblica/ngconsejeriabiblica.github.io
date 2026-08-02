@@ -61,7 +61,6 @@
 
   a{color:var(--blue);}
 
-  /* Ripple divider — motivo de aguas de reposo */
   .ripple{
     width:100%;
     height:44px;
@@ -69,7 +68,6 @@
     line-height:0;
   }
 
-  /* ===== NAV ===== */
   header{
     position:sticky;
     top:0;
@@ -116,7 +114,6 @@
   .btn-ghost{background:transparent;color:var(--blue-deep);border:1.5px solid var(--blue-deep);}
   .btn-ghost:hover{background:var(--blue-soft);}
 
-  /* ===== HERO ===== */
   .hero{
     position:relative;
     background:linear-gradient(180deg, var(--blue-deep) 0%, var(--blue) 55%, var(--blue-mid) 100%);
@@ -124,7 +121,8 @@
     overflow:hidden;
   }
   .hero-inner{
-    padding:88px 0 110px;
+    padding-top:88px;
+    padding-bottom:110px;
     position:relative;
     z-index:2;
   }
@@ -187,14 +185,12 @@
 
   .waves{position:absolute;left:0;right:0;bottom:-1px;line-height:0;z-index:1;}
 
-  /* ===== SECTIONS ===== */
   section{padding:76px 0;}
   .section-alt{background:var(--paper);}
   .section-head{max-width:60ch;margin-bottom:44px;}
   .section-head h2{font-size:clamp(26px,3.6vw,34px);}
   .lede{color:var(--ink-soft);font-size:17px;margin-top:14px;}
 
-  /* Transformación */
   .transform-grid{
     display:grid;
     gap:36px;
@@ -225,7 +221,6 @@
   .transform-text p{color:var(--ink-soft);margin-bottom:16px;}
   .transform-text p:last-child{margin-bottom:0;}
 
-  /* Para quién */
   .holistic-row{
     display:grid;
     gap:22px;
@@ -242,7 +237,6 @@
   .holistic-item h3{font-size:17px;margin-bottom:8px;}
   .holistic-item p{color:var(--ink-soft);font-size:15.5px;}
 
-  /* Servicios */
   .services-grid{
     display:grid;
     gap:1px;
@@ -269,7 +263,6 @@
   }
   .service-cell p{font-size:14.5px;color:var(--ink-soft);}
 
-  /* Autoridad */
   .authority-grid{
     display:grid;
     gap:44px;
@@ -305,7 +298,6 @@
     color:var(--blue-deep);
   }
 
-  /* Proceso */
   .process-row{
     display:grid;
     gap:24px;
@@ -322,7 +314,6 @@
   .process-card h3{font-size:16.5px;margin-bottom:8px;}
   .process-card p{color:var(--ink-soft);font-size:15px;}
 
-  /* CTA / Contacto */
   .cta{
     background:linear-gradient(180deg, var(--blue) 0%, var(--blue-deep) 100%);
     color:var(--white);
@@ -370,7 +361,6 @@
     border-top:1px solid var(--line);
   }
 
-  /* Reveal on scroll */
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease, transform .7s ease;}
   .reveal.is-visible{opacity:1;transform:none;}
   @media (prefers-reduced-motion: reduce){
@@ -403,7 +393,7 @@
     <p class="hero-lede">Sesiones con enfoque holístico —mente, cuerpo y alma— guiadas por más de 27 años de experiencia en consejería cristiana, presenciales o por videollamada.</p>
     <blockquote class="hero-quote">
       "Mi alma no tiene descanso hasta que reposa en ti."
-      <cite>San Agustín</cite>
+      San Agustín
     </blockquote>
     <div class="hero-actions">
       <a href="#contacto" class="btn btn-primary">Agendar una cita</a>
@@ -431,7 +421,7 @@
       </div>
       <div class="verse-card">
         <p>"No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento, para que comprobéis cuál sea la buena voluntad de Dios, agradable y perfecta."</p>
-        <cite>Romanos 12:2</cite>
+        Romanos 12:2
       </div>
     </div>
   </div>

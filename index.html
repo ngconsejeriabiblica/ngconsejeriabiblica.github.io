@@ -248,22 +248,25 @@
     overflow:hidden;
   }
   @media(max-width:900px){ .services-grid{grid-template-columns:repeat(2,1fr);} }
-  @media(max-width:600px){ .services-grid{grid-template-columns:1fr;} }
-  .service-cell{
-    background:var(--white);
-    padding:28px 24px;
-    transition:background .2s ease;
-  }
-  .service-cell:hover{background:var(--blue-softer);}
-  .service-cell h3{
-    font-size:16.5px;
-    color:var(--blue-deep);
-    margin-bottom:6px;
-    font-family:'Source Sans 3', sans-serif;
-    font-weight:700;
-  }
-  .service-cell p{font-size:14.5px;color:var(--ink-soft);}
-
+.service-cell{
+  background:var(--white);
+  padding:28px 24px;
+  transition:background .2s ease;
+}
+.service-cell:hover{background:var(--blue-softer);}
+.service-cell h3{
+  font-size:16.5px;
+  color:var(--blue-deep);
+  margin-bottom:6px;
+  font-family:'Source Sans 3', sans-serif;
+  font-weight:700;
+}
+.service-cell p{font-size:14.5px;color:var(--ink-soft);}
+@media(max-width:600px){
+  .service-cell{padding:18px 14px;}
+  .service-cell h3{font-size:14.5px;margin-bottom:4px;}
+  .service-cell p{font-size:13px;line-height:1.45;}
+}
   .authority-grid{
     display:grid;
     gap:44px;

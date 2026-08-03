@@ -163,15 +163,15 @@
   .hero .btn-ghost:hover{background:rgba(255,255,255,0.12);}
 
   .hero-photo-wrap{
-    position:absolute;
-    right:-6%;
-    bottom:-40px;
-    width:46%;
-    max-width:480px;
-    border-radius:6px;
-    overflow:hidden;
-    box-shadow:0 30px 60px -20px rgba(6,26,45,0.55);
-    display:none;
+  position:absolute;
+  right: max(24px, calc((100% - 1100px) / 2 + 24px));
+  bottom: 60px;
+  width: 38%;
+  max-width: 440px;
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 30px 60px -20px rgba(6,26,45,0.55);
+  display:none;
   }
   @media(min-width:900px){ .hero-photo-wrap{display:block;} }
   .hero-photo-wrap img{
